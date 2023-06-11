@@ -8,15 +8,15 @@ export default function Navbar() {
 
   return (
     <>
-      <nav className={style.nav}>
-        <Image src="/img/logo.png" width={150} height={150} />
+      <nav className="flex justify-between items-center lg:px-[12rem] py-4 px-[1.5rem]">
+        <Image src="/img/logo.png" width={150} height={80} alt="logo"/>
         <OutsideClickHandler onOutsideClick={() => setOffCanvas(false)}>
           <Image
             src="/img/menu.svg"
             width={32}
             height={32}
-            style={{ cursor: "pointer" }}
-            onClick={() => setOffCanvas(true)}
+            className="cursor-pointer"
+            onClick={() => setOffCanvas(true)} alt="openmenu"
           />
         </OutsideClickHandler>
       </nav>
@@ -26,7 +26,7 @@ export default function Navbar() {
             src="/img/close.svg"
             width={50}
             height={50}
-            onClick={() => setOffCanvas(false)}
+            onClick={() => setOffCanvas(false)} alt="closemenu"
           />
         </div>
         <div className={style.canvas_content}>
@@ -34,7 +34,7 @@ export default function Navbar() {
           <div className={style.menu}>
             <h4>Menu</h4>
             <p style={{ marginTop: 0 }}>
-              <a href="" onClick={() => setOffCanvas(false)}>
+              <a href="/" onClick={() => setOffCanvas(false)}>
                 Home
               </a>
             </p>
