@@ -1,10 +1,24 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# FrontendFirst (Portfolio)
 
-## Getting Started
+## Description
 
-First, run the development server:
+This project is a next.js portfolio website. 
 
-```bash
+## Motivation
+
+The motivation behind this project was to create a portfolio web application by using modern technologies and tools. 
+
+## Features
+
+- Responsive UI design utilizing Tailwind CSS for efficient styling and layout.
+
+## Installation
+
+1. Clone the repository: `git clone https://github.com/maryamtufail/frontendfirst.git`
+2. Navigate to the project directory: `cd frontendfirst`
+3. Install the dependencies: `npm install`
+4. Start the development server:
+  ```bash
 npm run dev
 # or
 yarn dev
@@ -12,23 +26,24 @@ yarn dev
 pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Note: Ensure you have Node.js installed on your system before proceeding with the installation.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Usage
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+1. After starting the development server, the application will be accessible at `http://localhost:3000/`.
+2. Modify and extend the project as needed for your specific requirements.
 
-## Learn More
+## Contributing
 
-To learn more about Next.js, take a look at the following resources:
+Contributions are welcome! If you find any bugs, have suggestions for improvements, or want to add new features, feel free to open issues or submit pull requests. Please adhere to the project's code style and guidelines.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Acknowledgments
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- [Next.js](https://nextjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
 
-## Deploy on Vercel
+## Contact
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+For any inquiries or feedback, please reach out to [maryamtufail78@gmail.com](mailto:maryamtufail78@gmail.com).
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Happy coding!
