@@ -34,8 +34,8 @@
     display: flex;
     margin-top: 18vh;
   }
-  
-  .social h4, .menu h4{
+
+  .menu h4{
     color: var(--secondary);
     font-weight: 400;
   }
@@ -50,11 +50,12 @@
     width: 40%;
   }
   
-  .social a{
-    font-size: 1.5rem;
+  .social{
     display: flex;
-    align-items: center;
     padding-top: 10px;
+  }
+  .social a>img{
+    width: 2rem;
   }
   
   .menu p{
