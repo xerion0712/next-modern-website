@@ -31,18 +31,18 @@ const ProjectCard = () => {
           >
             <div className="h-full flex flex-col justify-center items-center">
               <div className="relative">
-                <h3 className="text-lg sm:text-xl font-bold ">{item.title}</h3>
+                <h3 className="text-lg sm:text-xl font-bold text-[#3294FE]">{item.title}</h3>
                 <p className="text-base py-4 pb-6 ">{item.description}</p>
                 <div className="flex flex-wrap justify-center mb-4">
                   {item.skills.map((skill) => (
-                    <span key={skill} className="inline-block bg-gray-500 text-white text-sm px-2 py-1 rounded mr-2 mb-2">
+                    <span key={skill} className="inline-block bg-[#FFC107] text-white text-sm px-2 py-1 rounded mr-2 mb-2">
                       {skill}
                     </span>
                   ))}
                 </div>
               </div>
 
-               <a className="absolute  top-0 left-0 right-0 bottom-0 flex flex-col justify-center items-center bg-[#0d437d] bg-opacity-50 transition-opacity duration-300 opacity-0 hover:opacity-100 px-2" href=""><img
+               <a className="absolute top-0 left-0 right-0 bottom-0 flex flex-col justify-center items-center duration-300 opacity-0 hover:opacity-100 px-2" href=""><img
                   src={item.image}
                   alt=""
                   className="object-cover w-full h-full transition-transform duration-300 transform hover:scale-110"

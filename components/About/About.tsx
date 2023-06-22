@@ -3,12 +3,12 @@ import React from "react";
 
 const About = () => {
   return (
-    <div className="lg:flex bg-white">
-      <div className="w-full">
+    <section className="about lg:flex bg-white">
+      <div className="">
         <img
-          src="https://metricool.com/wp-content/uploads/jason-blackeye-364785-2.jpg"
+          src="img/frontendabout.png"
           alt="About"
-          className="w-full"
+          className="object-cover w-[90rem] h-[50rem]"
         />
       </div>
       <div className="w-full flex flex-col justify-center px-[3rem] py-[2rem]">
@@ -19,7 +19,7 @@ const About = () => {
         </p>
         {/* <DownloadResumeButton /> */}
       </div>
-    </div>
+    </section>
   );
 };
 

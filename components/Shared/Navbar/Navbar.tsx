@@ -5,6 +5,14 @@ import OutsideClickHandler from "react-outside-click-handler";
 
 export default function Navbar() {
   const [offCanvas, setOffCanvas] = useState(false);
+  const handleLinkClick = (event: React.MouseEvent<HTMLAnchorElement>) => {
+    event.preventDefault();
+    const targetClassName = event.currentTarget.getAttribute('data-target');
+    const targetElements = document.querySelectorAll(`.${targetClassName}`);
+    if (targetElements.length > 0) {
+      targetElements[0].scrollIntoView({ behavior: 'smooth' });
+    }
+  };
 
   return (
     <>
@@ -34,23 +42,23 @@ export default function Navbar() {
           <div className={style.menu}>
             <h4>Menu</h4>
             <p style={{ marginTop: 0 }}>
-              <a href="/" onClick={() => setOffCanvas(false)}>
+              <a href="#" data-target="home" onClick={handleLinkClick}>
                 Home
               </a>
             </p>
             <p>
-              <a href="featured" onClick={() => setOffCanvas(false)}>
-                Featured
+              <a href="#"  data-target="about" onClick={handleLinkClick}>
+                About
               </a>
             </p>
             <p>
-              <a href="projects" onClick={() => setOffCanvas(false)}>
+              <a href="#"  data-target="project" onClick={handleLinkClick}>
                 Projects
               </a>
             </p>
             <p>
-              <a href="testimoni" onClick={() => setOffCanvas(false)}>
-                Testimoni
+              <a href="#"  data-target="contact" onClick={handleLinkClick}>
+                Contact
               </a>
             </p>
           </div>

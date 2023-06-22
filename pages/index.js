@@ -1,8 +1,11 @@
 import Head from "next/head";
-import Navbar from "../components/Shared/Navbar";
-import Hero from "../Components/Hero";
-import About from "../Components/About";
-import Project from "../components/Project";
+import Navbar from "../components/Shared/Navbar/Navbar";
+import Hero from "../Components/Hero/Hero";
+import About from "../Components/About/About";
+import Project from "../components/Project/Project";
+import Contact from "../components/Contact/Contact";
+import Footer from "../Components/Shared/Footer/Footer";
+
 export default function index() {
   return (
     <div>
@@ -10,6 +13,8 @@ export default function index() {
    <Hero/>
    <About/>
    <Project/>
+   <Contact/>
+   <Footer/>
     </div>
   )
 }
