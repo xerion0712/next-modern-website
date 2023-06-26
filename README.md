@@ -2,22 +2,23 @@
 
 ## Description
 
-This project is a next.js portfolio website. 
+Welcome to FrontendFirst, a stunning next.js portfolio website that showcases the best of modern technologies and tools in web development.
 
 ## Motivation
 
-The motivation behind this project was to create a portfolio web application by using modern technologies and tools. 
+At FrontendFirst, My motivation is to create an exceptional portfolio web application that not only highlights your skills and achievements but also captivates your audience with a sleek and professional design.
 
 ## Features
 
-- Responsive UI design utilizing Tailwind CSS for efficient styling and layout.
+Responsive UI Design: My portfolio website boasts a visually appealing and responsive user interface. With Tailwind CSS, we've achieved efficient styling and layout that adapts seamlessly to various screen sizes.
 
 ## Installation
 
-1. Clone the repository: `git clone https://github.com/maryamtufail/frontendfirst.git`
-2. Navigate to the project directory: `cd frontendfirst`
-3. Install the dependencies: `npm install`
-4. Start the development server:
+1. Clone the repository: Begin by cloning the repository with the command: `git clone https://github.com/maryamtufail/frontendfirst.git`
+2. Navigate to the project directory: Use the command: `cd frontendfirst`
+3. Install the dependencies: Execute `npm install` to install all the necessary dependencies.
+4. Create a `.env.local` file in the project root and provide the necessary environment variables (see the **Environment Variables** section below for details).
+5. Start the development server:
   ```bash
 npm run dev
 # or
@@ -25,8 +26,23 @@ yarn dev
 # or
 pnpm dev
 ```
+Note: Ensure you have Node.js installed on your system before proceeding with the installation. 
 
-Note: Ensure you have Node.js installed on your system before proceeding with the installation.
+## Environment Variables
+
+The following environment variables are required to configure the email service:
+
+- `GMAIL_USER`= YOUR_EMAIL
+- `GMAIL_PASSWORD`= YOUR_PASSCODE
+
+### What is PASSCODE?
+This is not your email passwords. 
+
+- Go to <a href="https://shorturl.at/rKTZ9" >2-Step Verification Link </a>  or `Access your google account > Security > 2-Step Verification > App Passwords (Scroll down at bottom see this)`
+- Open App passwords: `select app > Other > Write nodemailer` 
+- Click generate. copy that code it is your PASSCODE.
+
+Note: Make sure to provide appropriate values for these variables in your `.env.local` file.
 
 ## Usage
 
@@ -39,8 +55,10 @@ Contributions are welcome! If you find any bugs, have suggestions for improvemen
 
 ## Acknowledgments
 
-- [Next.js](https://nextjs.org/)
-- [Tailwind CSS](https://tailwindcss.com/)
+FrontendFirst would not have been possible without the incredible contributions of the following technologies:
+
+- Next.js: A fantastic framework for building server-rendered React applications with ease.
+- Tailwind CSS: The utility-first CSS framework that enables effortless customization and a beautiful, responsive design.
 
 ## Contact
 
