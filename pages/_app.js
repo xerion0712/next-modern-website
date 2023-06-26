@@ -3,7 +3,7 @@ import Head from "next/head";
 
 function MyApp({ Component, pageProps }) {
   return (
-    <>
+    < >
       <Head>
         <title>Maryam - FrontendFirst</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
