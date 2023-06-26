@@ -12,7 +12,7 @@ const Contact = () => {
           <div className='flex flex-col justify-center'>
             <h1 className="text-xl md:text-2xl font-bold">Get in Touch</h1>
             <h2 className="text-4xl md:text-6xl font-bold mt-4">Contact Me</h2>
-            <p className="text-gray-600 mt-4">Send me a message and I'll get back to you shortly.</p>
+            <p className="text-gray-600 mt-4">Send me a message and I&apos;ll get back to you shortly.</p>
             <div className="flex items-center mt-4">
               <FiMail className="text-gray-600 text-xl mr-2" />
               <p className="text-gray-600">maryamtufail78@gmail.com</p>

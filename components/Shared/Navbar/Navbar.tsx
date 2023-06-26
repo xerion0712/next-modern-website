@@ -66,10 +66,10 @@ export default function Navbar() {
         </div>
         <div className={style.social}>
               <a href="https:www.instagram.com/frontendartist">
-                <img src="/img/Instagram.svg" />
+                <Image src="/img/Instagram.svg"  width={32} height={32} alt="instagram"/>
               </a>
               <a href="https:www.linkedin.com/in/maryamtufail">
-                <img src="/img/Linkedin.svg" />
+                <Image src="/img/Linkedin.svg" width={32} height={32} alt="linkedin"/>
                
               </a>
             </div>

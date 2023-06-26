@@ -3,6 +3,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import { Projects } from "./utils/ProjectDB";
+import Image from "next/image";
 
 const ProjectCard = () => {
   return (
@@ -42,10 +43,13 @@ const ProjectCard = () => {
                 </div>
               </div>
 
-               <a className="absolute top-0 left-0 right-0 bottom-0 flex flex-col justify-center items-center duration-300 opacity-0 hover:opacity-100 px-2" href=""><img
+               <a className="absolute top-0 left-0 right-0 bottom-0 flex flex-col justify-center items-center duration-300 opacity-0 hover:opacity-100 px-2" href="">
+                <Image
                   src={item.image}
                   alt=""
                   className="object-cover w-full h-full transition-transform duration-300 transform hover:scale-110"
+                  width={750}
+                  height={750}
                 /></a>
               </div>
          

@@ -1,14 +1,17 @@
 import React from "react";
 // import DownloadResumeButton from "../Shared/DownloadResumeButton";
+import Image from "next/image";
 
 const About = () => {
   return (
     <section className="about lg:flex bg-white">
       <div className="">
-        <img
-          src="img/frontendabout.png"
+        <Image
+          src="/img/frontendabout.png"
           alt="About"
           className="object-cover w-[90rem] h-[50rem]"
+          width={1070}
+          height={1070}
         />
       </div>
       <div className="w-full flex flex-col justify-center px-[3rem] py-[2rem]">

@@ -1,15 +1,15 @@
 import Navbar from "../components/Shared/Navbar/Navbar";
-import Hero from "../Components/Hero/Hero";
-import About from "../Components/About/About";
+import Hero from "../components/Hero/Hero";
+import About from "../components/About/About";
 import Project from "../components/Project/Project";
 import Contact from "../components/Contact/Contact";
-import Footer from "../Components/Shared/Footer/Footer";
+import Footer from "../components/Shared/Footer/Footer";
 
-export default function index() {
+const Home = () => {
   return (
     <div>
    <Navbar/>
-   <Hero/>
+   <Hero />
    <About/>
    <Project/>
    <Contact/>
@@ -17,3 +17,4 @@ export default function index() {
     </div>
   )
 }
+export default Home;
