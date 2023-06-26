@@ -5,6 +5,7 @@ import OutsideClickHandler from "react-outside-click-handler";
 
 export default function Navbar() {
   const [offCanvas, setOffCanvas] = useState(false);
+ 
   const handleLinkClick = (event: React.MouseEvent<HTMLAnchorElement>) => {
     event.preventDefault();
     const targetClassName = event.currentTarget.getAttribute('data-target');
