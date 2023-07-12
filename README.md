@@ -64,4 +64,4 @@ FrontendFirst would not have been possible without the incredible contributions 
 
 For any inquiries or feedback, please reach out to [maryamtufail78@gmail.com](mailto:maryamtufail78@gmail.com).
 
-Happy coding!
+Happy coding! Have a nice day!
