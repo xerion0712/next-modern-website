@@ -12,14 +12,12 @@ const Hero = () => {
   };
 
   return (
-    <section className="home flex flex-col items-center justify-center lg:h-[68vh] h-screen text-center text-[#333333] font-semibold ">
-      <h1 className="lg:text-7xl text-6xl">
-        Baby Steps,
+    <section className="home flex flex-col items-center w-full flex-col py-[12rem] text-center font-bold">
+      <h1 className="py-5 text-5xl leading-tight md:text-6xl md:leading-tight lg:text-8xl lg:leading-tight">
+      Level Up<br/>your <br/>Web Presence
       </h1>
-      <h2 className="lg:text-8xl text-6xl my-5">
-       towards Dream
-      </h2>
-      <a href='#'  data-target="project" className="px-10 py-2 border border-white text-[#333333] hover:bg-white mt-2"  onClick={handleLinkClick}>
+      
+      <a href='#'  data-target="project" className="transform px-10 py-2 border border-primary text-primary hover:bg-primary hover:text-secondary mt-[3rem]"  onClick={handleLinkClick}>
        Explore my journey
       </a>
     </section>

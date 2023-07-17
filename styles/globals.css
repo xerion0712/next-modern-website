@@ -7,11 +7,9 @@
 /* Add your custom styles here */
 
 :root {
-    --dark: #007BFF;
-    --primary:  #F8F9FA;
-    --secondary: #FFC107;
-    --light:  #333333;
-    --padding-section: 8rem 0;
+  --color-primary: #1d1d1d;
+  --color-secondary: #f6f6f6;
+  --color-other: #f0f0ec;
   }
   
   

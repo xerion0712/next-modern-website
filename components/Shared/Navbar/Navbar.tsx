@@ -4,12 +4,14 @@ import { useState } from "react";
 import OutsideClickHandler from "react-outside-click-handler";
 
 export default function Navbar() {
+ 
   const [offCanvas, setOffCanvas] = useState(false);
  
   const handleLinkClick = (event: React.MouseEvent<HTMLAnchorElement>) => {
     event.preventDefault();
     const targetClassName = event.currentTarget.getAttribute('data-target');
     const targetElements = document.querySelectorAll(`.${targetClassName}`);
+   
     if (targetElements.length > 0) {
       targetElements[0].scrollIntoView({ behavior: 'smooth' });
     }
@@ -17,7 +19,7 @@ export default function Navbar() {
 
   return (
     <>
-      <nav className="flex justify-between items-center lg:px-[12rem] py-4 px-[1.5rem]">
+      <nav className="flex justify-between items-center lg:px-[12rem] py-6 px-[1.5rem]">
         <Image className="w-auto h-auto" src="/img/logo.png" width={125} height={80} alt="logo"/>
         <OutsideClickHandler onOutsideClick={() => setOffCanvas(false)}>
           <Image

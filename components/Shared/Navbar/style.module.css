@@ -9,7 +9,7 @@
     height: 100vh;
     position: fixed;
     z-index: 10;
-    background-color: var(--primary);
+    background-color: var(--color-other);
     top: 0;
     right: -40%;
     padding: 3rem;
@@ -60,10 +60,11 @@
   
   .menu p{
     font-size: 2.5rem;
+    transition: transform 0.3s;
   }
   
   .social a:hover, .menu p:hover{
-    margin-left: 10px;
+    transform: scale(1.1);
     opacity: .8;
   }
   

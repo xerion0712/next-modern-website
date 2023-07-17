@@ -6,10 +6,14 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+      colors: {
+        primary: '#1d1d1d', // Set your primary color
+        secondary: '#f6f6f6', // Set your secondary color
+        other: '#fe924c'
+      },
+      backgroundColor: {
+        primary: 'var(--color-primary)', // Use primary color as background
+        secondary: 'var(--color-secondary)', // Use secondary color as background
       },
     },
   },
