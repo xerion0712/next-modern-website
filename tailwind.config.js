@@ -9,7 +9,8 @@ module.exports = {
       colors: {
         primary: '#1d1d1d', // Set your primary color
         secondary: '#f6f6f6', // Set your secondary color
-        other: '#fe924c'
+        conone: '#fe924c',
+        contwo: '#f0f0ec',
       },
       backgroundColor: {
         primary: 'var(--color-primary)', // Use primary color as background

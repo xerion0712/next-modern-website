@@ -32,11 +32,11 @@ const ProjectCard = () => {
           >
             <div className="h-full flex flex-col justify-center items-center">
               <div className="relative">
-                <h3 className="text-lg sm:text-xl font-bold text-[#3294FE]">{item.title}</h3>
-                <p className="text-base py-4 pb-6 ">{item.description}</p>
+                <h3 className="text-lg sm:text-xl font-bold text-conone">{item.title}</h3>
+                <p className="text-base py-4 pb-6">{item.description}</p>
                 <div className="flex flex-wrap justify-center mb-4">
                   {item.skills.map((skill) => (
-                    <span key={skill} className="inline-block bg-[#FFC107] text-white text-sm px-2 py-1 rounded mr-2 mb-2">
+                    <span key={skill} className="inline-block bg-contwo text-primary font-bold text-sm px-4 py-1 mr-2 mb-2">
                       {skill}
                     </span>
                   ))}

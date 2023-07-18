@@ -9,7 +9,7 @@
     height: 100vh;
     position: fixed;
     z-index: 10;
-    background-color: var(--color-other);
+    background-color: var(--color-secondary);
     top: 0;
     right: -40%;
     padding: 3rem;

@@ -101,7 +101,7 @@ const ContactForm = () => {
         {/* Submit button */}
         <div className="flex justify-end">
           <button
-            className={`bg-[#3294FE] border border-[#3294FE] hover:bg-transparent hover:text-gray-600 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline transition-all ${
+            className={`bg-conone border border-conone hover:bg-transparent hover:text-primary text-secondary font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline transition-all ${
               loading
                 ? "opacity-0 translate-y-2 pointer-events-none"
                 : "opacity-100 translate-y-0"
