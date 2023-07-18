@@ -7,9 +7,8 @@ import Image from "next/image";
 
 const ProjectCard = () => {
   return (
-    <div className="lg:flex justify-center px-2">
+    <div className="lg:flex justify-center px-4">
       <Swiper
-        centeredSlides={true}
         spaceBetween={30}
         breakpoints={{
           "@0.75": {
