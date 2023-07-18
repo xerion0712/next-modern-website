@@ -14,11 +14,11 @@ const About = () => {
           height={1070}
         />
       </div>
-      <div className="md:w-1/2 flex flex-col justify-center px-[3rem] py-[2rem]">
+      <div className="md:w-1/2 flex flex-col justify-center px-[5rem] py-[2rem]">
         <h2 className="text-2xl font-bold mb-4 text-primary">About</h2>
         <h3 className="text-5xl font-semibold mb-4 text-conone">Frontend Developer</h3>
         <p className="mb-4">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis mattis lectus. Nunc ultricies auctor dignissim. Integer ullamcorper eleifend ex, a rutrum justo. Phasellus sagittis dapibus nulla et consectetur. Maecenas placerat nec quam at pellentesque. Phasellus in enim ut lectus congue rhoncus. Fusce sagittis leo sed nibh feugiat, nec venenatis nunc vehicula. Suspendisse arcu felis, tincidunt nec pulvinar in, convallis sodales massa. Nullam eget ex mauris. Donec sed nibh mauris. Donec scelerisque ante nisi, a faucibus nulla maximus vehicula. In imperdiet maximus magna non venenatis. Nam a pellentesque libero. Suspendisse aliquet urna nec metus interdum cursus.
+          A mid-level Front-End Developer having 1.5+ years of experience, converting Figma designs into visually stunning and interactive user interfaces using the power of React.js and Next.js into pixel-perfect and interactive UIs. Some of my technical skills include HTML, CSS, Git, and Agile methodologies.
         </p>
         {/* <DownloadResumeButton /> */}
       </div>
