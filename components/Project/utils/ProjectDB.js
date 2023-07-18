@@ -3,7 +3,7 @@ export const Projects = [
     {
       image: "/img/frontendfrst.png",
       title: "FRONTENDFIRST",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      description: "FrontendFirst, a stunning next.js portfolio website that showcases the best of modern technologies and tools.",
       skills: ["Next js", "Tailwind CSS", "Nodemailer", "Swiper js", "AOS"],
       link: "https://refa.netlify.app/"
     },
