@@ -12,7 +12,7 @@ const Hero = () => {
   };
 
   return (
-    <section className="home flex flex-col items-center w-full flex-col py-[16rem]  font-bold">
+    <section className="home flex flex-col items-center w-full flex-col py-[17rem]  font-bold">
       <h1 className="py-6 text-5xl leading-tight md:text-7xl md:leading-tight lg:text-8xl lg:leading-tight text-center">
       Level Up your Web Presence
       </h1>

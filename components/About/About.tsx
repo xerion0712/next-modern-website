@@ -7,7 +7,7 @@ const About = () => {
     <section className="about lg:flex bg-white">
       <div className="">
         <Image
-          src="/img/frontendabout.png"
+          src="/img/frontendabout.svg"
           alt="About"
           className="object-cover w-[90rem] h-[50rem]"
           width={1070}
