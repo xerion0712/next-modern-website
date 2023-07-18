@@ -1,26 +1,31 @@
 export const Projects = [
+  
+    {
+      image: "/img/frontendfrst.png",
+      title: "FRONTENDFIRST",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      skills: ["Next js", "Tailwind CSS", "Nodemailer", "Swiper js", "AOS"],
+      link: "https://refa.netlify.app/"
+    },
     {
       image: "/img/refa.png",
-      title: "Refa",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      title: "REFA",
+      description: "A smooth 5 page website with mobile-first that represents information about refa cargos.",
       skills: ["React", "Tailwind CSS", "Swiper.js", "react-router"],
+      link: "https://refa.netlify.app/"
     },
     {
-      image: "/img/refa.png",
-      title: "Project 2",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      skills: ["React", "Tailwind CSS"],
+      image: "/img/cosmoverse.png",
+      title: "COSMOVERSE",
+      description: "A smooth one pager website with responsiveness that represents information about blockchain.",
+      skills: ["Next js", "Tailwind CSS", "Framer motion"],
+      link: "https://cosomoverse.vercel.app/"
     },
     {
-      image: "/img/refa.png",
-      title: "Project 3",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      skills: ["React", "Tailwind CSS"],
-    },
-    {
-      image: "/img/refa.png",
-      title: "Project 4",
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
-      skills: ["React", "Tailwind CSS"],
+      image: "/img/onScrollcolorchange.png",
+      title: "GSAP_colorChange",
+      description: "A React.js website that utilizes smooth color transitions to provide an engaging user experience.  ",
+      skills: ["React", "Tailwind CSS", "GSAP"],
+      link: "https://onscroll-color-change-gsap.vercel.app/"
     },
   ];

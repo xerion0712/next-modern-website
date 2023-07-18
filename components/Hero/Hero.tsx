@@ -12,7 +12,7 @@ const Hero = () => {
   };
 
   return (
-    <section className="home flex flex-col items-center  w-full flex-col py-28 md:pt-[9rem] md:pb-[14rem] px-3   text-center">
+    <section className="home flex items-center  w-full flex-col py-28 md:pt-[9rem] md:pb-[14rem] px-3   text-center">
      <div className="py-6 text-4xl  md:text-7xl lg:text-8xl font-bold"><h1 >
       Level up your  </h1><p>Web <span className='text-conone'>Presence</span></p></div> 
       <p className='md:w-1/2 md:text-xl text-md'>FrontendFirst, with its emphasis on modern designs and agile methods,  has proven to attract more customers than ever before. Don&apos;t hesitate any longer! Place your order now and experience the benefits firsthand.</p>

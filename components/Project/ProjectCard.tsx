@@ -7,7 +7,7 @@ import Image from "next/image";
 
 const ProjectCard = () => {
   return (
-    <div className="lg:flex justify-center px-4">
+    <div className="lg:flex justify-center px-4 ">
       <Swiper
         spaceBetween={30}
         breakpoints={{
@@ -27,9 +27,9 @@ const ProjectCard = () => {
         className="mySwiper"
       >
         {Projects.map((item) => (
-          <SwiperSlide key={item.title} className="px-10 py-12 relative" style={{height: 500, width: 500}}
+          <SwiperSlide key={item.title} className="px-10 py-12 relative" style={{height: 300, width: 300}}
           >
-            <div className="h-full flex flex-col justify-center items-center">
+            <div className="h-full flex flex-col justify-center items-center ">
               <div className="relative">
                 <h3 className="text-lg sm:text-xl font-bold text-conone">{item.title}</h3>
                 <p className="text-base py-4 pb-6">{item.description}</p>
@@ -42,7 +42,7 @@ const ProjectCard = () => {
                 </div>
               </div>
 
-               <a className="absolute top-0 left-0 right-0 bottom-0 flex flex-col justify-center items-center duration-300 opacity-0 hover:opacity-100 px-2" href="">
+               <a href={item.link} className="absolute top-0 left-0 right-0 bottom-0 flex flex-col justify-center items-center duration-300 opacity-0 hover:opacity-100 px-2" >
                 <Image
                   src={item.image}
                   alt=""

@@ -20,11 +20,11 @@ export default function Navbar() {
   return (
     <>
       <nav className="flex justify-between items-center lg:px-[12rem] py-8 px-[1.5rem]">
-        <Image className="w-auto h-auto" src="/img/logo.png" width={125} height={80} alt="logo"/>
+        <Image className="w-150 h-auto" src="/img/frontlogo.png" width={90} height={80} alt="logo"/>
         <OutsideClickHandler onOutsideClick={() => setOffCanvas(false)}>
           <Image
             src="/img/menu.svg"
-            width={32}
+            width={40}
             height={32}
             className="cursor-pointer"
             onClick={() => setOffCanvas(true)} alt="openmenu"
@@ -35,7 +35,7 @@ export default function Navbar() {
         <div className={style.close_icon}>
           <Image
             src="/img/close.svg"
-            width={50}
+            width={60}
             height={50}
             onClick={() => setOffCanvas(false)} alt="closemenu"
           />
