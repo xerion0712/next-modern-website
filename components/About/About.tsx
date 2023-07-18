@@ -4,8 +4,8 @@ import Image from "next/image";
 
 const About = () => {
   return (
-    <section className="about flex bg-contwo items-center w-full justify-center py-24">
-      <div className="flex w-1/4 justify-center">
+    <section className="about flex md:flex-row flex-col bg-contwo items-center w-full justify-center py-24">
+      <div className="flex md:w-1/4 justify-center">
         <Image
           src="/img/frontendabout.svg"
           alt="About"
@@ -14,7 +14,7 @@ const About = () => {
           height={1070}
         />
       </div>
-      <div className="w-1/2 flex flex-col justify-center px-[3rem] py-[2rem]">
+      <div className="md:w-1/2 flex flex-col justify-center px-[3rem] py-[2rem]">
         <h2 className="text-2xl font-bold mb-4 text-primary">About</h2>
         <h3 className="text-5xl font-semibold mb-4 text-conone">Frontend Developer</h3>
         <p className="mb-4">
