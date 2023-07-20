@@ -1,9 +1,9 @@
 import '../styles/globals.css'
 import type { AppProps } from 'next/app'
 import Head from 'next/head'
-import { Montserrat } from 'next/font/google'
+import { Roboto } from 'next/font/google'
 
-const roboto = Montserrat({
+const roboto = Roboto({
   weight: '400',
   subsets: ['latin'],
 })
