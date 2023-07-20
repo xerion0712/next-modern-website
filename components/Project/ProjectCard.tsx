@@ -1,7 +1,12 @@
 import React from 'react';
 import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-import "swiper/css/pagination";
+
+
+// Import Swiper styles
+import 'swiper/css';
+
+
+
 import { Projects } from "./utils/ProjectDB";
 import Image from "next/image";
 
@@ -9,7 +14,7 @@ const ProjectCard = () => {
   return (
     <div className="lg:flex justify-center px-16">
       <Swiper
-        
+          
         breakpoints={{
           "@0.75": {
             slidesPerView: 1,
@@ -20,14 +25,14 @@ const ProjectCard = () => {
             spaceBetween: 20,
           },
           "@1.50": {
-            slidesPerView: 4,
+            slidesPerView: 3,
             spaceBetween: 10,
           },
         }}
         className="mySwiper"
       >
         {Projects.map((item) => (
-          <SwiperSlide key={item.title} className="px-2 py-12 absolute" style={{height: 400, width: 300}}
+          <SwiperSlide key={item.title} className="px-8 py-12 absolute" style={{height: 400, width: 300}}
           >
             <div className="h-full flex flex-col  items-center ">
               <div className="relative">
