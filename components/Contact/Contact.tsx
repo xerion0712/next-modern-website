@@ -6,7 +6,7 @@ import ContactForm from './ContactForm';
 const Contact = () => {
  
   return (
-    <section className="contact flex justify-center items-center py-[10rem] bg-contwo">
+    <section className="contact flex justify-center items-center py-[4rem] bg-contwo">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div className='flex flex-col justify-center text-primary'>
