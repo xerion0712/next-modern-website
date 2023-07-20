@@ -20,7 +20,7 @@ export default function Navbar() {
   return (
     <>
       <nav className="flex justify-between items-center lg:px-[12rem] py-8 px-[1.5rem]">
-        <Image className="w-150 h-auto" src="/img/frontlogo.png" width={90} height={80} alt="logo"/>
+        <Image className="w-100 h-auto" src="/img/frontlogo.png" width={90} height={80} alt="logo"/>
         <OutsideClickHandler onOutsideClick={() => setOffCanvas(false)}>
           <Image
             src="/img/menu.svg"
