@@ -29,7 +29,7 @@ const ProjectCard = () => {
         {Projects.map((item) => (
           <SwiperSlide key={item.title} className="px-2 py-12 absolute" style={{height: 400, width: 300}}
           >
-            <div className="h-full flex flex-col justify-center items-center ">
+            <div className="h-full flex flex-col  items-center ">
               <div className="relative">
                 <h3 className="text-lg sm:text-xl font-bold text-conone">{item.title}</h3>
                 <p className="text-base py-4 pb-6">{item.description}</p>
