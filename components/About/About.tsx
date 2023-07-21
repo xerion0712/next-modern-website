@@ -7,6 +7,7 @@ const About = () => {
   return (
     <section className="about flex md:flex-row flex-col bg-contwo items-center w-full justify-center py-[3rem]">
       <Zoom triggerOnce className="flex md:w-1/4 justify-center">
+     <div>
         <Image
           src="/img/frontendabout.svg"
           alt="About"
@@ -14,6 +15,7 @@ const About = () => {
           width={1070}
           height={1070}
         />
+        </div>
       </Zoom>
       <div className="md:w-1/2 w-full flex flex-col justify-center md:px-[8rem] py-[1rem] px-3">
         <h2 className="text-2xl font-bold mb-4 text-primary">About</h2>
