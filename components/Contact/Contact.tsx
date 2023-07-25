@@ -1,5 +1,3 @@
-import React from 'react';
-
 import { FiMail } from 'react-icons/fi';
 import ContactForm from './ContactForm';
 

@@ -1,4 +1,4 @@
-import React from "react";
+
 
 const DownloadResumeButton = () => {
   const handleDownload = () => {
@@ -16,7 +16,7 @@ const DownloadResumeButton = () => {
   return (
     <button
       onClick={handleDownload}
-      className="transition delay-150 w-[13rem] px-2 py-2 border border-primary text-primary hover:bg-primary hover:text-secondary"
+      className="transition delay-50 w-[13rem] px-2 py-2 border border-primary text-primary rounded-full hover:bg-primary hover:text-secondary"
     >
       Download Resume
     </button>

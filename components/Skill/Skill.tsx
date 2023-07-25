@@ -1,4 +1,3 @@
-import React from 'react';
 import { FaJs, FaReact, FaNodeJs, FaGithub, FaGit, FaCode, FaBootstrap } from 'react-icons/fa';
 import { SiTailwindcss, SiMui, SiNpm, SiYarn, SiTypescript, SiVercel, SiNextdotjs, SiVisualstudio } from "react-icons/si";
 import Marquee from 'react-fast-marquee';

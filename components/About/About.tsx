@@ -1,4 +1,3 @@
-import React from "react";
 import DownloadResumeButton from "../Shared/DResume/DownloadResumeButton";
 import Image from "next/image";
 import Typewriter from "typewriter-effect";
