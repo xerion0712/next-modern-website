@@ -1,65 +1,41 @@
-
-import { Swiper, SwiperSlide } from "swiper/react";
-
-// Import Swiper styles
-import 'swiper/css';
-
-
-
 import { Projects } from "./utils/ProjectDB";
 import Image from "next/image";
 
 const ProjectCard = () => {
   return (
-    <div className="lg:flex justify-center px-2 md:px-16">
-      <Swiper 
-        breakpoints={{
-          "@0.75": {
-            slidesPerView: 1,
-            spaceBetween: 10,
-          },
-          "@1.00": {
-            slidesPerView: 2,
-            spaceBetween: 20,
-          },
-          "@1.50": {
-            slidesPerView: 3,
-            spaceBetween: 10,
-          },
-        }}
-        className="mySwiper"
-      >
-         
-        {Projects.map((item) => (
-       
-          <SwiperSlide key={item.title} className="px-8 py-12 absolute" style={{height: 300, width: 400}}  >
-            <div className="h-full flex flex-col  items-center ">
-              <div className="relative">
-                <h3 className="text-lg sm:text-xl font-bold text-conone">{item.title}</h3>
-                <p className="text-base py-4 pb-6">{item.description}</p>
-                <div className="flex flex-wrap justify-center mb-4">
-                  {item.skills.map((skill) => (
-                    <span key={skill} className="inline-block bg-contwo text-primary font-bold text-sm px-4 py-1 mr-2 mb-2">
-                      {skill}
-                    </span>
-                  ))}
-                </div>
-              </div>
-
-               <a href={item.link} className="absolute top-0 left-0 right-0 bottom-0 flex flex-col justify-center items-center duration-300 opacity-0 hover:opacity-100 px-2" >
-                <Image
-                  src={item.image}
-                  alt=""
-                  className="object-cover w-full h-full transition-transform duration-300 transform hover:scale-110"
-                  width={750}
-                  height={750}
-                /></a>
-              </div>
-         
-          </SwiperSlide>
-        ))}
-      </Swiper>
-      
+    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+      {Projects.map((item) => (
+        <div key={item.title} className="relative bg-white shadow-md rounded-lg overflow-hidden">
+          <div className="h-48 sm:h-60 md:h-72 relative">
+            <Image
+              src={item.image}
+              alt={item.title}
+              layout="fill"
+              objectFit="cover"
+              className="transform transition-transform duration-300 hover:scale-110"
+            />
+          </div>
+          <div className="p-4">
+            <h3 className="text-lg sm:text-xl font-bold text-conone">{item.title}</h3>
+            <p className="text-base py-4 pb-6">{item.description}</p>
+            <div className="flex flex-wrap justify-center mb-4">
+              {item.skills.map((skill) => (
+                <span key={skill} className="inline-block bg-contwo text-primary font-bold text-sm px-4 py-1 mr-2 mb-2">
+                  {skill}
+                </span>
+              ))}
+            </div>
+            <div className="flex justify-center space-x-4">
+              <a href={item.link} className="border-2 border-primary block text-center bg-primary text-secondary font-bold py-2 px-4 rounded-full transition duration-300 hover:bg-transparent hover:text-primary">
+                See View
+              </a>
+              <a href={item.link} className="border-2 border-primary block text-center text-primary font-bold py-2 px-4 rounded-full transition duration-300 hover:text-secondary hover:bg-primary">
+                GitHub
+              </a>
+            </div>
+          </div>
+        </div>
+      ))}
     </div>
   );
 };
