@@ -4,13 +4,13 @@ import Typewriter from "typewriter-effect";
 import {Zoom } from "react-awesome-reveal"
 const About = () => {
   return (
-    <section className="about flex md:flex-row flex-col bg-contwo items-center w-full justify-center py-[3rem]">
+    <section className="about flex md:flex-row flex-col bg-contwo items-center w-full justify-center py-[6rem]">
       <Zoom triggerOnce className="flex md:w-1/4 justify-center">
      <div>
         <Image
-          src="/img/frontendabout.svg"
+          src="/img/about.png"
           alt="About"
-          className="object-fit w-[30rem] h-auto"
+          className="object-fit w-[150rem] h-auto"
           width={1070}
           height={1070}
         />
