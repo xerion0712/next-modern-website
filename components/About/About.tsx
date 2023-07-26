@@ -7,8 +7,8 @@ import { FaCheckCircle } from "react-icons/fa";
 const About = () => {
   return (
     <section className="about flex md:flex-row flex-col bg-contwo items-center w-full justify-center py-[8rem]">
-      <Zoom triggerOnce className="flex md:w-1/4 justify-center">
-        <div>
+      <Zoom triggerOnce className="flex md:w-1/3 justify-center">
+       
           <Image
             src="/img/about.png"
             alt="About"
@@ -16,9 +16,10 @@ const About = () => {
             width={1070}
             height={1070}
           />
-        </div>
+     
       </Zoom>
-      <div className="md:w-1/2 w-full flex flex-col justify-center md:px-[8rem] py-[1rem] px-3">
+      <div className="md:w-1/2 w-full flex flex-col justify-center md:px-[6rem] py-[1rem] px-3">
+        <h2 className="text-2xl font-semibold mb-2">About</h2>
         <h3 className="text-3xl md:text-4xl font-semibold mb-4 text-conone">
           <Typewriter
             options={{
