@@ -11,7 +11,7 @@ const Project = () => {
         <Slide triggerOnce className=" pb-2 text-xl md:text-2xl text-primary font-semibold"><p>Embark on a journey through my creations.</p></Slide>
       </div>
       <ProjectCard />
-      <a className="hover:text-conone" href="https://github.com/maryamtufail"><h2 className="text-xl pt-6 align-center font-semibold">Want to See More <BsArrowUpRightCircle className="inline" /></h2></a>
+      <a className="w-[13rem] hover:text-conone" href="https://github.com/maryamtufail"><h2 className="text-xl pt-6 align-center font-semibold">Want to See More <BsArrowUpRightCircle className="inline" /></h2></a>
     </section>
   );
 };
