@@ -29,7 +29,7 @@ const About = () => {
           />
         </h3>
         <p className="mb-2 text-md text-justify">
-          Hello, I'm Maryam Tufail, a Mid-Level Front-End Developer with over 2
+          Hello, I&apos;m Maryam Tufail, a Mid-Level Front-End Developer with over 2
           years of experience in crafting responsive UIs to drive business
           growth. My main objective is to continuously enhance my skills,
           enabling me to elevate customer engagement and establish a strong

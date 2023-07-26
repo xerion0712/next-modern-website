@@ -4,8 +4,9 @@ import {Zoom } from "react-awesome-reveal"
 const ProjectCard = () => {
   return (
     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+      <Zoom triggerOnce > 
       {Projects.map((item) => (
-        <Zoom triggerOnce> <div key={item.title} className="relative bg-white shadow-md rounded-lg overflow-hidden">
+        <div key={item.title} className="relative bg-white shadow-md rounded-lg overflow-hidden">
           <div className="h-48 sm:h-60 md:h-72 relative">
             <Image
               src={item.image}
@@ -36,8 +37,8 @@ const ProjectCard = () => {
             </div>
           </div>
         </div>
-        </Zoom> 
       ))}
+      </Zoom> 
     </div>
   );
 };
