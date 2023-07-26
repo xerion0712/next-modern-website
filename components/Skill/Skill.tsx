@@ -6,7 +6,7 @@ const SkillsSection = () => {
   return (
     <section className="text-center py-5">
      <h3 className='text-3xl font-bold'> Tech <span className='text-conone'>Stack</span></h3>
-      <div className="overflow-hidden py-5 px-[24rem]">
+      <div className="overflow-hidden py-5 md:px-[20rem]">
         <Marquee direction="left" speed={50}>
           <FaJs className="icon" />
           <SiTypescript className="icon"/>

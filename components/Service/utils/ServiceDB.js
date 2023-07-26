@@ -12,6 +12,6 @@ export const ServiceDB = [
   {
     image: "/img/redesign.png",
     title: "Redesign a Website",
-    description: "Give your website a fresh look and improved user experience. ",
+    description: "Give your website a fresh look and improved user experience by using new technologies. ",
   },
 ];

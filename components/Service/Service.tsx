@@ -1,12 +1,12 @@
 import Image from "next/image";
 import ServiceCard from "./ServiceCard";
-import { Slide } from "react-awesome-reveal"
+
 
 const Service = () => {
  
 
   return (
-    <section className="service md:px-[20rem] bg-white flex flex-col justify-center">
+    <section className="service px-2 md:px-[10rem] bg-white flex flex-col justify-center">
    
        <ServiceCard/>
    

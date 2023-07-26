@@ -4,14 +4,14 @@ export const Projects = [
       image: "/img/frontendfrst.png",
       title: "FRONTENDFIRST",
       description: "FrontendFirst, a stunning next.js portfolio website that showcases the best of modern technologies and tools.",
-      skills: ["Next js", "Tailwind CSS", "Nodemailer", "Swiper js", "react-awsome-reveal"],
+      skills: ["Next js", "Tailwind CSS", "Nodemailer", ],
       link: "https://refa.netlify.app/"
     },
     {
       image: "/img/refa.png",
       title: "REFA",
       description: "A smooth 5 page website with mobile-first that represents information about refa cargos.",
-      skills: ["React", "Tailwind CSS", "Swiper.js", "react-router"],
+      skills: ["React", "Tailwind CSS", "Swiper.js"],
       link: "https://refa.netlify.app/"
     },
     {
