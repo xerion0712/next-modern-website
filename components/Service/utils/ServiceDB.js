@@ -7,7 +7,7 @@ export const ServiceDB = [
   {
     image: "/img/ideatocode.png",
     title: "Idea to Code",
-    description: "Have a brilliant idea? turn it into reality with a frontend developer.",
+    description: "Have a brilliant idea? turn it into reality with the latest frontend technologies.",
   },
   {
     image: "/img/redesign.png",
