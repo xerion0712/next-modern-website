@@ -4,13 +4,13 @@ import Typewriter from "typewriter-effect";
 import {Zoom } from "react-awesome-reveal"
 const About = () => {
   return (
-    <section className="about flex md:flex-row flex-col bg-contwo items-center w-full justify-center py-[6rem]">
+    <section className="about flex md:flex-row flex-col bg-contwo items-center w-full justify-center py-[10rem]">
       <Zoom triggerOnce className="flex md:w-1/4 justify-center">
      <div>
         <Image
           src="/img/about.png"
           alt="About"
-          className="object-fit w-[150rem] h-auto"
+          className="object-fit w-[50rem] h-auto"
           width={1070}
           height={1070}
         />
@@ -27,8 +27,8 @@ const About = () => {
             }}
           />
         </h3>
-        <p className="mb-9 md:text-md text-sm text-justify">
-          A mid-level Front-End Developer having 1.5+ years of experience, converting Figma designs into visually stunning and interactive user interfaces using the power of React.js and Next.js into pixel-perfect and interactive UIs. Some of my technical skills include HTML, CSS, Git, and Agile methodologies.
+        <p className="mb-9 text-md text-justify">
+        Hello, I'm Maryam Tufail, a Mid-Level Front-End Developer with over 2 years of experience in crafting responsive UIs to drive business growth. My main objective is to continuously enhance my skills, enabling me to elevate customer engagement and establish a strong online presence that fosters business expansion.
         </p>
         <DownloadResumeButton />
       </div>
