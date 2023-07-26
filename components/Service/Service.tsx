@@ -6,7 +6,7 @@ const Service = () => {
  
 
   return (
-    <section className="service md:px-[20rem] bg-white flex flex-col justify-center text-center">
+    <section className="service md:px-[20rem] bg-white flex flex-col justify-center">
    
        <ServiceCard/>
    

@@ -8,8 +8,8 @@ const ServiceCard = () => {
       {ServiceDB.map((item) => (
         <Fade key={item.title} triggerOnce>
           <div className="relative rounded-lg overflow-hidden shadow-lg hover:shadow-xl bg-white transition-shadow duration-300 border border-gray-200">
-            <div className="p-4">
-              <div className="flex items-center mb-6">
+            <div className="p-6">
+              <div className="flex items-center mb-3">
                 <div className="w-12 h-12 mr-4">
                   <Image
                     src={item.image}

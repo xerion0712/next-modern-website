@@ -12,7 +12,7 @@ const About = () => {
           <Image
             src="/img/about.png"
             alt="About"
-            className="object-fit w-[50rem] h-auto"
+            className="w-[80rem] h-auto"
             width={1070}
             height={1070}
           />
