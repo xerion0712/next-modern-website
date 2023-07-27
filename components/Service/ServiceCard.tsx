@@ -19,7 +19,7 @@ const ServiceCard = () => {
                    height={600}
                   />
                 </div>
-                <h3 className="text-lg sm:text-2xl font-bold text-gray-900">{item.title}</h3>
+                <h3 className="text-lg md:text-2xl font-bold text-gray-900">{item.title}</h3>
               </div>
               <p className="text-base py-4 pb-6 text-gray-600">{item.description}</p>
             </div>
