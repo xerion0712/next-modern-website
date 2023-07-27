@@ -1,11 +1,11 @@
 import { ServiceDB } from "./utils/ServiceDB";
 import Image from "next/image";
-import { Fade } from "react-awesome-reveal";
+import { Zoom } from "react-awesome-reveal";
 
 const ServiceCard = () => {
   return (
     <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
-        <Fade triggerOnce>
+        <Zoom triggerOnce>
       {ServiceDB.map((item) => (
       
           <div key={item.title}  className="relative rounded-lg overflow-hidden shadow-lg hover:shadow-xl bg-white transition-shadow duration-300 border border-gray-200">
@@ -19,13 +19,13 @@ const ServiceCard = () => {
                    height={600}
                   />
                 </div>
-                <h3 className="text-lg sm:text-xl font-bold text-gray-900">{item.title}</h3>
+                <h3 className="text-lg sm:text-2xl font-bold text-gray-900">{item.title}</h3>
               </div>
               <p className="text-base py-4 pb-6 text-gray-600">{item.description}</p>
             </div>
           </div>
       ))}
-      </Fade>
+      </Zoom>
     </div>
   );
 };
