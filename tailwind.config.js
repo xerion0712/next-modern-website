@@ -7,14 +7,15 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: '#1d1d1d', // Set your primary color
-        secondary: '#f6f6f6', // Set your secondary color
-        conone: '#FE8739',
-        contwo: '#f0f0ec',
+        primary: '#FEFEE2', 
+        secondary: '#150602', 
+        accent: '#fac702',
       },
       backgroundColor: {
-        primary: 'var(--color-primary)', // Use primary color as background
-        secondary: 'var(--color-secondary)', // Use secondary color as background
+        primary: 'var(--color-primary)', 
+        secondary: 'var(--color-secondary)', 
+        paccent: 'var(--color-paccent)',
+        saccent: 'var(--color-saccent)',
       },
     },
   },

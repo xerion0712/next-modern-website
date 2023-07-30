@@ -1,16 +1,16 @@
 import '../styles/globals.css'
 import type { AppProps } from 'next/app'
 import Head from 'next/head'
-import { Roboto } from 'next/font/google'
+import { Mulish } from 'next/font/google'
 
-const roboto = Roboto({
-  weight: '400',
+const mulish = Mulish({
+  weight: '500',
   subsets: ['latin'],
 })
 
 export default function App({ Component, pageProps }: AppProps) {
   return (
-    <div className={roboto.className}>
+    <div className={mulish.className}>
       <Head>
         <title>Frontend Developer Portfolio | FrontendFirst</title>
         <meta
