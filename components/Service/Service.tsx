@@ -1,4 +1,3 @@
-import Image from "next/image";
 import ServiceCard from "./ServiceCard";
 
 
@@ -6,7 +5,7 @@ const Service = () => {
  
 
   return (
-    <section className="service px-2 md:px-[10rem] bg-white flex flex-col justify-center">
+    <section className="px-2 py-4 md:px-[10rem] flex flex-col justify-center bg-primary">
    
        <ServiceCard/>
    

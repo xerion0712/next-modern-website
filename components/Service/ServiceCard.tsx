@@ -8,7 +8,7 @@ const ServiceCard = () => {
         <Zoom triggerOnce>
       {ServiceDB.map((item) => (
       
-          <div key={item.title}  className="relative rounded-lg overflow-hidden shadow-lg hover:shadow-xl bg-white transition-shadow duration-300 border border-gray-200">
+          <div key={item.title}  className="relative rounded-lg overflow-hidden shadow-lg hover:shadow-xl bg-accent transition-shadow duration-300">
             <div className="p-6">
               <div className="flex items-center mb-3">
                 <div className="w-12 h-12 mr-4">
@@ -19,9 +19,9 @@ const ServiceCard = () => {
                    height={600}
                   />
                 </div>
-                <h3 className="text-md md:text-xl font-bold text-gray-900">{item.title}</h3>
+                <h3 className="text-md md:text-xl font-bold ">{item.title}</h3>
               </div>
-              <p className="text-base py-4 pb-6 text-gray-600">{item.description}</p>
+              <p className="text-base py-4 pb-6 ">{item.description}</p>
             </div>
           </div>
       ))}
