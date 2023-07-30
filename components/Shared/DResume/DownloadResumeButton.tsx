@@ -16,7 +16,7 @@ const DownloadResumeButton = () => {
   return (
     <button
       onClick={handleDownload}
-      className="cursor-pointer rounded-lg transition delay-50 px-12 py-3  bg-paccent text-secondary hover:bg-saccent hover:text-primary mt-[2rem] w-[11rem]"
+      className="font-bold cursor-pointer rounded-lg transition delay-50 px-12 py-3  bg-paccent text-secondary hover:bg-saccent hover:text-primary mt-[2rem] w-[11rem]"
     >
       About Me
     </button>
