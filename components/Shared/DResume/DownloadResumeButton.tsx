@@ -16,9 +16,9 @@ const DownloadResumeButton = () => {
   return (
     <button
       onClick={handleDownload}
-      className="transition delay-50 w-[13rem] px-2 py-2 border border-primary text-primary rounded-full hover:bg-primary hover:text-secondary"
+      className="cursor-pointer rounded-lg transition delay-50 px-12 py-3  bg-paccent text-secondary hover:bg-saccent hover:text-primary mt-[2rem] w-[11rem]"
     >
-      Download Resume
+      About Me
     </button>
   );
 };
