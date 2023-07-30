@@ -6,7 +6,7 @@ import { Zoom } from "react-awesome-reveal";
 
 const About = () => {
   return (
-    <section className="about flex md:flex-row flex-col bg-secondary items-center w-full justify-center text-secondary py-[8rem]">
+    <section className="about flex md:flex-row flex-col bg-secondary items-center w-full justify-center text-secondary py-[6rem]">
       <Zoom triggerOnce className="flex md:w-1/3 justify-center">
        
           <Image
