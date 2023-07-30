@@ -4,9 +4,8 @@ import Marquee from 'react-fast-marquee';
 
 const SkillsSection = () => {
   return (
-    <section className="text-center py-5">
-     <h3 className='text-3xl font-bold'> Tech <span className='text-conone'>Stack</span></h3>
-      <div className="overflow-hidden py-5 md:px-[20rem]">
+    <section className="flex justify-center items-center py-2 text-secondary ">
+      <div className="max-w-screen-lg p-8 rounded-lg bg-[#FFECCC]">
         <Marquee direction="left" speed={50}>
           <FaJs className="icon" />
           <SiTypescript className="icon"/>
