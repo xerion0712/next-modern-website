@@ -20,7 +20,7 @@ const About = () => {
       </Zoom>
       <div className="md:w-1/2 w-full flex flex-col justify-center md:px-[6rem] py-[1rem] px-3 leading-6">
         <h2 className="text-2xl font-semibold mb-2">Hey, Meet me! </h2>
-        <h3 className="text-3xl md:text-4xl text-accent font-semibold mb-4 ">
+        <h3 className="text-3xl md:text-4xl  font-semibold mb-4 ">
           <Typewriter
             options={{
               strings: ["Frontend Developer", "Tea Lover", "Freelancer"],
