@@ -42,13 +42,13 @@ const ContactForm = () => {
     <div>
       <ToastContainer />
       <form
-        className="px-3 pt-6 pb-8 mb-4"
+        className="px-3 pt-12 pb-8 mb-4"
         onSubmit={handleSubmit}
       >
        
         <div className="text-secondary">
         <input
-            className="mb-4 border-secondary border rounded-lg w-full py-2 px-3  leading-tight focus:outline-none "
+            className="mb-4 border-secondary border rounded-lg w-full py-4 px-3  leading-tight focus:outline-none "
             id="name"
             type="text"
             placeholder="Your Full Name"
@@ -57,7 +57,7 @@ const ContactForm = () => {
             onChange={(e) => setName(e.target.value)}
           />
           <input
-            className="mb-4 border-secondary border rounded-lg w-full py-2 px-3  leading-tight focus:outline-none "
+            className="mb-4 border-secondary border rounded-lg w-full py-4 px-3  leading-tight focus:outline-none "
             id="email"
             type="email"
             placeholder="Email"
@@ -66,7 +66,7 @@ const ContactForm = () => {
             onChange={(e) => setEmail(e.target.value)}
           />
               <textarea
-            className="mb-4 border-secondary border rounded-lg w-full py-2 px-3  leading-tight focus:outline-none"
+            className="mb-4 border-secondary border rounded-lg w-full py-4 px-3  leading-tight focus:outline-none"
             id="message"
             rows={4}
             placeholder="Write something"

@@ -21,7 +21,12 @@ export default function Navbar() {
     <>
       <nav className="flex bg-primary text-primary justify-between items-center lg:px-[12rem] py-8 px-[1.5rem]">
         <a href="#" data-target="home" onClick={handleLinkClick}>
-          <div className="text-lg uppercase">&lt; <span>Frontend</span><span className="text-accent"> first</span> /&gt;</div>
+        <Image
+            src="/img/frontendlogo.png"
+            width={180}
+            height={180}
+            alt="logo"
+          />
         </a>
         <OutsideClickHandler onOutsideClick={() => setOffCanvas(false)}>
           <Image
