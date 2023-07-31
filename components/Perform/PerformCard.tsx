@@ -22,7 +22,7 @@ const PerformCard = () => {
               width={1070}
               height={1070}
             />
-            <h3 className="text-md md:text-lg my-2"> {item.title}</h3>
+            <h3 className="text-sm md:text-lg my-2"> {item.title}</h3>
           </div>
         ))}
       </Zoom>
