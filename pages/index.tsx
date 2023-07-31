@@ -9,6 +9,7 @@ import Service from "../components/Service/Service"
 import DifferMe from "../components/About/DifferMe";
 import WhyMe from "../components/About/WhyMe";
 import Testimonial from "../components/Testimonial/Testimonial"
+import Importance from "../components/Importance";
 const Home = () => {
   return (
     <div>
@@ -20,6 +21,7 @@ const Home = () => {
    <DifferMe/>
    <WhyMe/>
    <Testimonial/>
+   <Importance/>
    {/* <Project/> */}
    <Contact/>
    <Footer/>
