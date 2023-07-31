@@ -20,7 +20,7 @@ const DifferMe = () => {
        <Image
          src="/img/workcycle.png"
          alt="About"
-         className="px-2 w-[34rem] h-auto"
+         className="px-2 w-[30rem] h-auto"
          width={1070}
          height={1070}
        />
