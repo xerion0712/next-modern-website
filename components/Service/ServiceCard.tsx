@@ -19,9 +19,9 @@ const ServiceCard = () => {
                    height={600}
                   />
                 </div>
-                <h3 className="text-md md:text-xl font-bold ">{item.title}</h3>
+                <h3 className="text-md md:text-lg font-bold">{item.title}</h3>
               </div>
-              <p className="text-base py-4 pb-6 ">{item.description}</p>
+              <p className="text-sm py-4 pb-6 ">{item.description}</p>
             </div>
           </div>
       ))}
