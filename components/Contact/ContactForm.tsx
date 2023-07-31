@@ -42,14 +42,13 @@ const ContactForm = () => {
     <div>
       <ToastContainer />
       <form
-        className="px-8 pt-6 pb-8 mb-4"
+        className="px-3 pt-6 pb-8 mb-4"
         onSubmit={handleSubmit}
       >
-        {/* Form fields */}
-        <div className="mb-4">
-        
-          <input
-            className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+       
+        <div className="text-secondary">
+        <input
+            className="mb-4 border-secondary border rounded-lg w-full py-2 px-3  leading-tight focus:outline-none "
             id="name"
             type="text"
             placeholder="Your Full Name"
@@ -57,11 +56,8 @@ const ContactForm = () => {
             value={name}
             onChange={(e) => setName(e.target.value)}
           />
-        </div>
-        <div className="mb-4">
-        
           <input
-            className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+            className="mb-4 border-secondary border rounded-lg w-full py-2 px-3  leading-tight focus:outline-none "
             id="email"
             type="email"
             placeholder="Email"
@@ -69,11 +65,8 @@ const ContactForm = () => {
             value={email}
             onChange={(e) => setEmail(e.target.value)}
           />
-        </div>
-        <div className="mb-6">
-        
-          <textarea
-            className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+              <textarea
+            className="mb-4 border-secondary border rounded-lg w-full py-2 px-3  leading-tight focus:outline-none"
             id="message"
             rows={4}
             placeholder="Write something"
@@ -82,11 +75,15 @@ const ContactForm = () => {
             onChange={(e) => setMessage(e.target.value)}
           />
         </div>
+  
+        
+      
+    
 
         {/* Submit button */}
         <div className="flex">
           <button
-            className={`bg-accent border border-conone hover:bg-saccent hover:text-primary text-secondary font-bold py-3 px-7 rounded focus:outline-none focus:shadow-outline transition-all ${
+            className={`bg-accent border border-conone hover:bg-saccent hover:text-primary text-secondary font-bold py-2 px-8 rounded focus:outline-none focus:shadow-outline transition-all ${
               loading
                 ? "opacity-0 translate-y-2 pointer-events-none"
                 : "opacity-100 translate-y-0"
