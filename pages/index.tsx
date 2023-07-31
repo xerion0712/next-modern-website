@@ -7,7 +7,8 @@ import Footer from "../components/Shared/Footer/Footer";
 import Skill from "../components/Skill/Skill";
 import Service from "../components/Service/Service"
 import DifferMe from "../components/About/DifferMe";
-import WhyMe from "../components/About/WhyMe"
+import WhyMe from "../components/About/WhyMe";
+import Testimonial from "../components/Testimonial/Testimonial"
 const Home = () => {
   return (
     <div>
@@ -18,6 +19,7 @@ const Home = () => {
    <Skill/>
    <DifferMe/>
    <WhyMe/>
+   <Testimonial/>
    <Project/>
    <Contact/>
    <Footer/>
