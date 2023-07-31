@@ -9,11 +9,11 @@ const DifferMe = () => {
       <div className="md:w-[45%] w-full flex flex-col justify-center md:px-[6rem] py-[1rem] px-3 leading-6">
         <h2 className="text-3xl md:text-6xl font-bold mb-2">Way make me differ from other</h2>
         <h2 className="text-md md:text-xl mb-2">Exponential growth, optimizing performance and maximizing potential in the ever-evolving digital landscape.</h2>
-     <p className="border-secondary border text-md p-5 mt-2 rounded-lg bg-[#FFECCC]">1. Understand & Research </p>
+     <p className="border-secondary border text-md p-5 mt-2 rounded-lg bg-[#FFECCC]">1. Understand &amp; Research </p>
      <p className="border-secondary border text-md p-5 mt-2 rounded-lg bg-[#FFECCC]">2. Develop Responsive layout  </p>
-     <p className="border-secondary border text-md p-5 mt-2 rounded-lg bg-[#FFECCC]">3. Test Responsiveness & Functionality </p>
+     <p className="border-secondary border text-md p-5 mt-2 rounded-lg bg-[#FFECCC]">3. Test Responsiveness &amp; Functionality </p>
      <p className="border-secondary border text-md p-5 mt-2 rounded-lg bg-[#FFECCC]">4. Deploy and Feedback </p>
-      <p className="border-secondary border text-md p-5 mt-2 rounded-lg bg-[#FFECCC]">5. Continuous Learning & Growth  </p>
+      <p className="border-secondary border text-md p-5 mt-2 rounded-lg bg-[#FFECCC]">5. Continuous Learning &amp; Growth  </p>
       </div>
       <Zoom triggerOnce className="flex md:w-1/3 justify-center">
        
