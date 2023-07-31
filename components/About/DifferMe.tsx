@@ -6,7 +6,7 @@ const DifferMe = () => {
   return (
     <section className="about flex md:flex-row flex-col bg-secondary items-center w-full justify-center text-secondary py-[6rem]">
     
-      <div className="md:w-[45%] w-full flex flex-col justify-center md:px-[6rem] py-[1rem] px-3 leading-6">
+      <div className="md:w-[48%] w-full flex flex-col justify-center md:px-[2rem] py-[1rem] px-3 leading-6">
         <h2 className="text-3xl md:text-6xl font-bold mb-2">Way make me differ from other</h2>
         <h2 className="text-md md:text-xl mb-2">Exponential growth, optimizing performance and maximizing potential in the ever-evolving digital landscape.</h2>
      <p className="border-secondary border text-md p-5 mt-2 rounded-lg bg-[#FFECCC]">1. Understand &amp; Research </p>
