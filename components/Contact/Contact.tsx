@@ -24,7 +24,7 @@ const Contact = () => {
             <a href="https:www.instagram.com/frontendfirst">
             <FiInstagram className="w-8 h-8"/>
           </a>
-          <a href="https:www.linkedin.com/in/maryamtufail">
+          <a href="https:www.linkedin.com/in/maryam-tufail7">
           <FiLinkedin className="w-8 h-8"/>
           </a>
           {/* <a href='https://dribbble.com/frontendfirst'>

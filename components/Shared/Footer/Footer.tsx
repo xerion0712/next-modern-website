@@ -17,8 +17,8 @@ const Footer = () => {
           <p className="text-sm"> Design and Developed by your trusty </p>
         </div>
         <div className="flex flex-col w-full md:w-1/2 justify-center text-lg md:text-4xl font-bold gap-2">
-        <a className='flex items-center' href="#"><FiInstagram className=' mr-2 inline md:w-8 h-8'/> Instagram</a>
-        <a className='flex items-center' href="#"> <FiLinkedin className=' mr-2 inline md:w-8 h-8'/> LinkedIn</a>
+        <a href="https:www.instagram.com/frontendfirst" className='flex items-center'><FiInstagram className=' mr-2 inline md:w-8 h-8'/> Instagram</a>
+        <a href="https:www.linkedin.com/in/maryam-tufail7" className='flex items-center'> <FiLinkedin className=' mr-2 inline md:w-8 h-8'/> LinkedIn</a>
         </div>
       </div>
     </footer>
