@@ -1,7 +1,7 @@
 import style from "./style.module.css";
 import Image from "next/image";
 import { useState } from "react";
-import { FaInstagram, FaLinkedinIn } from "react-icons/fa";
+import { FiInstagram, FiLinkedin } from "react-icons/fi";
 import OutsideClickHandler from "react-outside-click-handler";
 
 export default function Navbar() {
@@ -76,10 +76,10 @@ export default function Navbar() {
         </div>
         <div className={style.social}>
           <a href="https:www.instagram.com/frontendfirst">
-            <FaInstagram className="w-8 h-8"/>
+            <FiInstagram className="w-8 h-8"/>
           </a>
           <a href="https:www.linkedin.com/in/maryamtufail">
-          <FaLinkedinIn className="w-8 h-8"/>
+          <FiLinkedin className="w-8 h-8"/>
           </a>
         </div>
         <div className={style.email}>

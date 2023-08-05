@@ -42,6 +42,7 @@
   .social a, .menu p{
     cursor: pointer;
     transition: all .3s;
+    margin-right: 7px;
   }
   
   .social {
