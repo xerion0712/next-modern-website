@@ -7,7 +7,7 @@ const DownloadResumeButton = () => {
 
     const link = document.createElement("a");
     link.href = fileUrl;
-    link.setAttribute("download", "resume.pdf");
+    link.setAttribute("download", "maryamtufail.pdf");
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
