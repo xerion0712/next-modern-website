@@ -1,6 +1,7 @@
 import style from "./style.module.css";
 import Image from "next/image";
 import { useState } from "react";
+import { FaInstagram, FaLinkedinIn } from "react-icons/fa";
 import OutsideClickHandler from "react-outside-click-handler";
 
 export default function Navbar() {
@@ -19,7 +20,7 @@ export default function Navbar() {
 
   return (
     <>
-      <nav className="flex bg-primary text-primary justify-between items-center lg:px-[12rem] py-8 px-[1.5rem]">
+      <nav className="flex bg-primary text-secondary justify-between items-center lg:px-[12rem] py-8 px-[1.5rem]">
         <a href="#" data-target="home" onClick={handleLinkClick}>
         <Image
             src="/img/frontendlogo.png"
@@ -74,12 +75,11 @@ export default function Navbar() {
           </div>
         </div>
         <div className={style.social}>
-          <a href="https:www.instagram.com/frontendartist">
-            <Image src="/img/Instagram.svg" width={32} height={32} alt="instagram" />
+          <a href="https:www.instagram.com/frontendfirst">
+            <FaInstagram className="w-8 h-8"/>
           </a>
           <a href="https:www.linkedin.com/in/maryamtufail">
-            <Image src="/img/Linkedin.svg" width={32} height={32} alt="linkedin" />
-
+          <FaLinkedinIn className="w-8 h-8"/>
           </a>
         </div>
         <div className={style.email}>
