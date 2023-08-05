@@ -21,9 +21,15 @@ const Contact = () => {
             </div>
             <p className=" mt-4">Or you write via contact form. <br/> Send me a message and I&apos;ll get back to you shortly.</p>
             <div className='flex justify-center gap-2 mt-6'>
-            <FiInstagram className='w-8 h-8'/>
-          <FiLinkedin className='w-8 h-8'/>
+            <a href="https:www.instagram.com/frontendfirst">
+            <FiInstagram className="w-8 h-8"/>
+          </a>
+          <a href="https:www.linkedin.com/in/maryamtufail">
+          <FiLinkedin className="w-8 h-8"/>
+          </a>
+          {/* <a href='https://dribbble.com/frontendfirst'>
           <FiDribbble className='w-8 h-8'/>
+          </a> */}
             </div>
          
           </div>
