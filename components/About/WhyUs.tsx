@@ -1,6 +1,6 @@
 import { Slide, Roll } from "react-awesome-reveal";
 
-const WhyMe = () => {
+const WhyUs = () => {
 
     const handleLinkClick = (event: React.MouseEvent<HTMLAnchorElement>) => {
         event.preventDefault();
@@ -29,4 +29,4 @@ const WhyMe = () => {
     )
 }
 
-export default WhyMe
+export default WhyUs

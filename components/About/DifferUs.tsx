@@ -2,9 +2,9 @@ import Image from "next/image";
 import { Zoom } from "react-awesome-reveal";
 
 
-const DifferMe = () => {
+const DifferUs = () => {
   return (
-    <section className="about flex md:flex-row flex-col bg-blue items-center w-full justify-center text-primary py-[5rem] px-1">
+    <section className="about flex md:flex-row flex-col bg-blue bg-no-repeat items-center w-full justify-center text-primary py-[5rem] px-1">
       <div className=" flex flex-col max-w-screen-sm md:px-[4rem] py-[1rem] px-3 leading-6">
         <h2 className="text-3xl md:text-5xl font-bold mb-2">Way make us differ from other</h2>
         <h2 className="text-md md:text-xl mb-2">Exponential growth, optimizing performance and maximizing potential in the ever-evolving digital landscape.</h2>
@@ -28,4 +28,4 @@ const DifferMe = () => {
   );
 };
 
-export default DifferMe;
+export default DifferUs;
