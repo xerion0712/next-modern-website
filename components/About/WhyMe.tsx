@@ -12,7 +12,7 @@ const WhyMe = () => {
     };
 
     return (
-        <section className="home flex items-center w-full flex-col justify-center md:px-[15rem] px-10 md:py-[7rem] py-[3rem] text-center bg-yellow text-primary">
+        <section className="home flex items-center w-full flex-col justify-center md:px-[15rem] px-3 md:py-[7rem] py-[3rem] text-center bg-yellow text-primary">
             <div className="max-w-4xl mx-auto">
                 <Slide triggerOnce className="py-6 text-4xl md:text-6xl  font-bold"> <h1>Your Helping Hand for growth!</h1></Slide>
                 <Slide triggerOnce className='md:text-lg text-md mt-5'><p className="mb-3">First off, I want to say that I&apos;m really excited to connect with all of you. We are in same boat as a small front-end developer business owner for quite some time now. </p>

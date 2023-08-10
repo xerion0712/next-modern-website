@@ -42,7 +42,7 @@ const ContactForm = () => {
     <div>
       <ToastContainer />
       <form
-        className="px-3 pt-12 pb-8 mb-4"
+        className="px-3 pb-8 mb-4"
         onSubmit={handleSubmit}
       >
        

@@ -6,7 +6,7 @@ import { Zoom } from "react-awesome-reveal";
 
 const About = () => {
   return (
-    <section className="about flex md:flex-row flex-col bg-yellow items-center w-full justify-center text-primary py-[6rem]">
+    <section className="about flex md:flex-row flex-col bg-yellow items-center w-full justify-center text-primary py-[6rem] px-3">
       <Zoom triggerOnce className="flex max-w-screen-sm  justify-center">
         <Image
           src="/img/lapmp.png"

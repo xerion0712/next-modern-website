@@ -15,7 +15,7 @@ const Testimonial = () => {
          height={200}
        />
   
-                    <p className="md:text-2xl text-xl font-bold mt-4"> Maryam&apos;s Team with magical touch in building UIs using React. Working alongside maryam has been a pleasure, and her friendly attitude adds an extra layer of joy to the journey. I highly recommend her for your needs!</p>
+                    <p className="md:text-2xl text-lg font-bold mt-4"> Maryam&apos;s Team with magical touch in building UIs using React. Working alongside maryam has been a pleasure, and her friendly attitude adds an extra layer of joy to the journey. I highly recommend her for your needs!</p>
                     <p className="md:text-md font-semibold mt-6">Jon Chris </p>
                     <p>CTO</p>
                 </Slide></div>

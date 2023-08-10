@@ -14,7 +14,7 @@ const Hero = () => {
   
 
   return (
-    <section className="home  flex items-center w-full flex-col justify-center  md:py-[11rem] py-[3rem] text-center bg-hero text-primary">
+    <section className="home px-4 flex items-center w-full flex-col justify-center  md:py-[11rem] py-[3rem] text-center bg-hero text-primary">
       <div className="max-w-3xl flex flex-col items-center">
         <Slide triggerOnce className="py-6 text-4xl md:text-6xl font-bold">
           <h1>
