@@ -17,7 +17,7 @@ export default function App({ Component, pageProps }: AppProps) {
           name="description"
           content="Explore my portfolio as a mid-level Frontend Developer showcasing visually stunning and interactive user interfaces created using React.js and Next.js. Get in touch for your web design needs."
         />
-        <link rel="icon" href="/img/figmaatocode.png" />
+        <link rel="icon" href="/img/fevicon.svg" />
       </Head>
       <Component {...pageProps} />
     </div>
