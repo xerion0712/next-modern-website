@@ -3,9 +3,9 @@ import Image from "next/image";
 const Footer = () => {
 
   return (
-    <footer className="bg-primary p-[3rem] text-secondary items-center flex flex-col">
+    <footer className="bg-primary p-[3rem] text-primary items-center flex flex-col">
       <Image
-            src="/img/frontendlogo.png"
+            src="/img/frontslogo.png"
             width={200}
             height={200}
             alt="logo"

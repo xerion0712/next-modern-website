@@ -7,10 +7,9 @@
 /* Add your custom styles here */
 
 :root {
-  --color-primary: #3C160A;
-  --color-secondary: #fefee2;
-  --color-paccent: #fac702;
-  --color-saccent:#150602;
+  --primary: #03021e;
+  --secondary: #232236;
+  --accent: #ebf000;
   }
   
   

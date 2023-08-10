@@ -1,35 +1,35 @@
 export const Perform = [
   
     {
-      image: "/img/personalbrand.png",
+      image: "/img/personal.png",
       title: "Personal Brand",
     },
     {
-      image: "/img/makeup.png",
+      image: "/img/makeover.png",
       title: "Make-up Artist",
     },
     {
-      image: "/img/wedding.png",
+      image: "/img/wed.png",
       title: "Wedding",
     },
     {
-      image: "/img/construction.png",
+      image: "/img/construct.png",
       title: "Construction",
     },
     {
-      image: "/img/dental.png",
+      image: "/img/dentals.png",
       title: "Dental",
     },
     {
-      image: "/img/enter.png",
+      image: "/img/entertain.png",
       title: "Media & Entertainment",
     },
     {
-      image: "/img/cargo.png",
+      image: "/img/logistics.png",
       title: "Logistics & cargoes",
     },
     {
-      image: "/img/realstate.png",
+      image: "/img/real.png",
       title: "Real State",
     },
   ];

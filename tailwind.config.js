@@ -6,16 +6,20 @@ module.exports = {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        'hero': "url('/img/hero.png')",
+        'yellow': "url('/img/bgyellow.png')",
+        'blue': "url('/img/bgblue.png')",
+      },
       colors: {
-        primary: '#FEFEE2', 
-        secondary: '#150602', 
-        accent: '#fac702',
+        primary: '#ffffff', 
+        accent: '#ebf000',
+        hover: '#6FD8F5'
       },
       backgroundColor: {
-        primary: 'var(--color-primary)', 
-        secondary: 'var(--color-secondary)', 
-        paccent: 'var(--color-paccent)',
-        saccent: 'var(--color-saccent)',
+        primary: 'var(--primary)', 
+        secondary: 'var(--secondary)', 
+     
       },
     },
   },

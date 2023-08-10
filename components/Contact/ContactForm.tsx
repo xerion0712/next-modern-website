@@ -46,9 +46,9 @@ const ContactForm = () => {
         onSubmit={handleSubmit}
       >
        
-        <div className="text-secondary">
+        <div className="text-primary">
         <input
-            className="mb-4 border-secondary border rounded-lg w-full py-4 px-3  leading-tight focus:outline-none "
+            className="mb-4 border-accent bg-transparent hover:border-hover border rounded-lg w-full py-4 px-3  leading-tight focus:outline-none "
             id="name"
             type="text"
             placeholder="Your Full Name"
@@ -57,7 +57,7 @@ const ContactForm = () => {
             onChange={(e) => setName(e.target.value)}
           />
           <input
-            className="mb-4 border-secondary border rounded-lg w-full py-4 px-3  leading-tight focus:outline-none "
+            className="mb-4 border-accent bg-transparent border hover:border-hover rounded-lg w-full py-4 px-3  leading-tight focus:outline-none "
             id="email"
             type="email"
             placeholder="Email"
@@ -66,7 +66,7 @@ const ContactForm = () => {
             onChange={(e) => setEmail(e.target.value)}
           />
               <textarea
-            className="mb-4 border-secondary border rounded-lg w-full py-4 px-3  leading-tight focus:outline-none"
+            className="mb-4 border-accent bg-transparent border hover:border-hover rounded-lg w-full py-4 px-3  leading-tight focus:outline-none"
             id="message"
             rows={4}
             placeholder="Write something"
@@ -83,7 +83,7 @@ const ContactForm = () => {
         {/* Submit button */}
         <div className="flex">
           <button
-            className={`bg-accent border border-conone hover:bg-saccent hover:text-primary text-secondary font-bold py-2 px-8 rounded focus:outline-none focus:shadow-outline transition-all ${
+            className={`font-bold cursor-pointer rounded-lg transition delay-50 px-12 py-3 border-2 border-accent text-priamry hover:border-hover visiable text-primary ${
               loading
                 ? "opacity-0 translate-y-2 pointer-events-none"
                 : "opacity-100 translate-y-0"

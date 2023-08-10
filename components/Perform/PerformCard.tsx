@@ -9,11 +9,7 @@ const PerformCard = () => {
         {Perform.map((item, index) => (
           <div
             key={item.title}
-            className={`flex flex-col justify-center items-center rounded-lg p-12 h-[10rem] mt-2 ${
-              index % 2 === 0 ? "bg-accent" : "bg-primary"
-            } ${
-              index % 2 === 0 ? "text-secondary" : "text-accent"
-            }`}
+            className="flex flex-col justify-center items-center rounded-lg p-12 h-[10rem] mt-2 border-accent border-2 hover:border-hover"
           >
             <Image
               src={item.image}

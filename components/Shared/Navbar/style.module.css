@@ -2,6 +2,7 @@
   .nav > a{
     font-size: 1.2rem;
     font-weight: 700;
+   
   }
   
   .canvas_menu{
@@ -9,7 +10,8 @@
     height: 100vh;
     position: fixed;
     z-index: 10;
-    background-color: var(--color-secondary);
+    background-color: var(--primary);
+    color: white;
     top: 0;
     right: -40%;
     padding: 3rem;

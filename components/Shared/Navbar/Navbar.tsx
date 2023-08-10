@@ -20,18 +20,18 @@ export default function Navbar() {
 
   return (
     <>
-      <nav className="flex bg-primary text-secondary justify-between items-center lg:px-[12rem] py-8 px-[1.5rem]">
+      <nav className="flex bg-primary justify-between items-center lg:px-[12rem] py-5 px-[1.5rem]">
         <a href="#" data-target="home" onClick={handleLinkClick}>
         <Image
-            src="/img/frontendlogo.png"
-            width={180}
-            height={180}
+            src="/img/frontslogo.png"
+            width={200}
+            height={120}
             alt="logo"
           />
         </a>
         <OutsideClickHandler onOutsideClick={() => setOffCanvas(false)}>
           <Image
-            src="/img/menu.png"
+            src="/img/nmenu.png"
             width={40}
             height={32}
             className="cursor-pointer"
@@ -42,8 +42,8 @@ export default function Navbar() {
       <div className={`${style.canvas_menu} ${offCanvas ? style.active : ""} `}>
         <div className={style.close_icon}>
           <Image
-            src="/img/close.svg"
-            width={60}
+            src="/img/close.png"
+            width={50}
             height={50}
             onClick={() => setOffCanvas(false)} alt="closemenu"
           />
