@@ -14,11 +14,11 @@ const DifferMe = () => {
         <p className="border-primary border text-md p-5 mt-2 rounded-lg">4. Deploy and Feedback </p>
         <p className="border-primary border text-md p-5 mt-2 rounded-lg">5. Continuous Learning &amp; Growth  </p>
       </div>
-      <Zoom triggerOnce className="flex md:w-1/2 justify-center items-center">
+      <Zoom triggerOnce className="flex px-2 md:w-1/2 justify-center items-center">
         <Image
           src="/img/worklikeit.png"
           alt="About"
-          className="px-2 w-[25rem] h-auto"
+          className="px-2 w-[17rem] md:w-[25rem] h-auto"
           width={700}
           height={800}
         />
