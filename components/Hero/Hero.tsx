@@ -23,7 +23,7 @@ const Hero = () => {
         </Slide>
         <Slide triggerOnce className="md:text-xl text-md">
           <p>
-            FrontendFirst is dedicated to boosting your online presence with cutting-edge designs and agile methodologies. Don't miss out on the opportunity to enhance your business. Take action now and witness the remarkable benefits firsthand.
+            FrontendFirst is dedicated to boosting your online presence with cutting-edge designs and agile methodologies. Don&apos;t miss out on the opportunity to enhance your business. Take action now and witness the remarkable benefits firsthand.
           </p>
         </Slide>
       <Roll triggerOnce className="w-[16rem] font-bold cursor-pointer rounded-lg transition delay-50 px-12 py-3 border-2 border-accent text-priamry hover:border-hover visiable  mt-[3rem]">
