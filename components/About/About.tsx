@@ -22,14 +22,14 @@ const About = () => {
         <h3 className="text-3xl md:text-4xl  font-semibold mb-4 text-hover">
           <Typewriter
             options={{
-              strings: ["Designers", "Frontend Developers", "Tea Lovers", "Working Globally"],
+              strings: ["Designer", "Frontend Developer", "Tea Lover", "Working Globally"],
               autoStart: true,
               loop: true,
             }}
           />
         </h3>
         <p className="mb-2 text-lg text-justify">
-          We help entrepreneurs to level up online presence. Our main objective is to focus on every small points that other just forget. Becasue, We know the value of online pressence because we are in same boot for growing globally.
+          I help entrepreneurs to level up online presence. My main objective is to focus on every small points that other just forget. Becasue, I know the value of online pressence because I am in same boot for growing globally.
         </p>
         {/* <DownloadResumeButton /> */}
       </div>
