@@ -63,8 +63,8 @@ export default function Navbar() {
               </a>
             </p>
             <p>
-              <a href="#" data-target="project" onClick={handleLinkClick}>
-                Projects
+              <a href="#" data-target="serivce" onClick={handleLinkClick}>
+              Serivce
               </a>
             </p>
             <p>
