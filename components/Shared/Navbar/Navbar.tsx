@@ -75,10 +75,10 @@ export default function Navbar() {
           </div>
         </div>
         <div className={style.social}>
-          <a href="https:www.instagram.com/frontendfirst">
+          <a href="https:www.instagram.com/frontendfirst" aria-label="Instagram">
             <FiInstagram className="w-8 h-8"/>
           </a>
-          <a href="https:www.linkedin.com/in/maryam-tufail7">
+          <a href="https:www.linkedin.com/in/maryam-tufail7" aria-label="Linkedin">
           <FiLinkedin className="w-8 h-8"/>
           </a>
         </div>
