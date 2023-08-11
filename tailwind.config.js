@@ -7,9 +7,9 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'hero': "url('/img/hero.png')",
-        'yellow': "url('/img/bgyellow.png')",
-        'blue': "url('/img/bgblue.png')",
+        'hero': "url('/img/hero.webp')",
+        'yellow': "url('/img/bgyellow.webp')",
+        'blue': "url('/img/bgblue.webp')",
       },
       colors: {
         primary: '#ffffff', 
