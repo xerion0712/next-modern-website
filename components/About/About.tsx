@@ -18,7 +18,7 @@ const About = () => {
 
       </Zoom>
       <div className="max-w-screen-sm  flex flex-col justify-center md:px-[6rem] py-[1rem] px-3 leading-6">
-        <h2 className="text-2xl font-semibold mb-2 text-accent">Hey, Meet Us! </h2>
+        <h2 className="text-2xl font-semibold mb-2 text-accent">Hey, Meet Me!</h2>
         <h3 className="text-3xl md:text-4xl  font-semibold mb-4 text-hover">
           <Typewriter
             options={{
