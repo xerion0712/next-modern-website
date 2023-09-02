@@ -1,14 +1,13 @@
 import Image from "next/image";
-import { useState } from "react";
+import { useState, MouseEvent } from "react";
 import { FiInstagram, FiLinkedin } from "react-icons/fi";
 import OutsideClickHandler from "react-outside-click-handler";
 
 export default function Navbar() {
   const [offCanvas, setOffCanvas] = useState(false);
-
-  const handleLinkClick = (e) => {
-      e.preventDefault();
-    const targetClassName = e.currentTarget.getAttribute("data-target");
+  const handleLinkClick = (event: MouseEvent<HTMLAnchorElement>) => {
+      event.preventDefault();
+    const targetClassName = event.currentTarget.getAttribute("data-target");
     const targetElements = document.querySelectorAll(`.${targetClassName}`);
 
     if (targetElements.length > 0) {
@@ -20,7 +19,7 @@ export default function Navbar() {
     <>
       <nav className="bg-primary fixed w-full z-50">
         <div className="container mx-auto py-2 px-4 md:px-12 flex items-center justify-between text-center">
-          <a href="#" data-target="home" onClick={handleLinkClick}>
+          <a href="#" data-target="home" onClick={(e) => handleLinkClick(e)}>
             <Image
               src="/img/frontslogo.png"
               width={200}
@@ -43,19 +42,19 @@ export default function Navbar() {
           </div>
           {/* Desktop menu */}
           <div className="hidden md:flex space-x-8 text-lg items-center">
-            <a href="#" data-target="home" onClick={handleLinkClick} className="text-white hover:text-primary">
+            <a href="#" data-target="home" onClick={(e) => handleLinkClick(e)} className="text-white hover:text-primary">
               Home
             </a>
-            <a href="#" data-target="about" onClick={handleLinkClick} className="text-white hover:text-primary">
+            <a href="#" data-target="about" onClick={(e) => handleLinkClick(e)} className="text-white hover:text-primary">
               About
             </a>
-            <a href="#" data-target="service" onClick={handleLinkClick} className="text-white hover:text-primary">
+            <a href="#" data-target="service" onClick={(e) => handleLinkClick(e)} className="text-white hover:text-primary">
               Service
             </a>
-            <a href="#" data-target="contact" onClick={handleLinkClick} className="text-white hover:text-primary">
+            <a href="#" data-target="contact" onClick={(e) => handleLinkClick(e)} className="text-white hover:text-primary">
               Contact
             </a>
-            <a href="#" data-target="contact" onClick={handleLinkClick} className="text-white hover:text-primary border-accent border px-4 rounded-lg py-1">
+            <a href="#" data-target="contact" onClick={(e) => handleLinkClick(e)} className="text-white hover:text-primary border-accent border px-4 rounded-lg py-1">
               Book Now
             </a> 
           </div>
@@ -74,16 +73,16 @@ export default function Navbar() {
               </button>
             </div>
             <div className="flex flex-col pt-24 space-y-8 text-center">
-              <a href="#" data-target="home" onClick={handleLinkClick} className="text-white hover:text-primary">
+              <a href="#" data-target="home" onClick={(e) => handleLinkClick(e)} className="text-white hover:text-primary">
                 Home
               </a>
-              <a href="#" data-target="about" onClick={handleLinkClick} className="text-white hover:text-primary">
+              <a href="#" data-target="about" onClick={(e) => handleLinkClick(e)} className="text-white hover:text-primary">
                 About
               </a>
-              <a href="#" data-target="service" onClick={handleLinkClick} className="text-white hover:text-primary">
+              <a href="#" data-target="service" onClick={(e) => handleLinkClick(e)} className="text-white hover:text-primary">
                 Service
               </a>
-              <a href="#" data-target="contact" onClick={handleLinkClick} className="text-white hover:text-primary">
+              <a href="#" data-target="contact" onClick={(e) => handleLinkClick(e)} className="text-white hover:text-primary">
                 Contact
               </a>
             </div>
