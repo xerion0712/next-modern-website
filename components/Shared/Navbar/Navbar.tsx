@@ -1,5 +1,4 @@
 import Image from "next/image";
-import { useState } from "react";
 import { FiInstagram, FiLinkedin } from "react-icons/fi";
 import OutsideClickHandler from "react-outside-click-handler";
 
