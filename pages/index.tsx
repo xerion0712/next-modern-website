@@ -9,7 +9,6 @@ import Service from "../components/Service/Service"
 import DifferUs from "../components/About/DifferUs";
 import WhyUs from "../components/About/WhyUs";
 import Testimonial from "../components/Testimonial/Testimonial"
-// import Importance from "../components/Importance";
 import Perform from "../components/Perform/Perform";
 const Home = () => {
   return (
