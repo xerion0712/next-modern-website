@@ -6,9 +6,8 @@ import Contact from "../components/Contact/Contact";
 import Footer from "../components/Shared/Footer/Footer";
 import Skill from "../components/Skill/Skill";
 import Service from "../components/Service/Service"
-import DifferUs from "../components/About/DifferUs";
-import WhyUs from "../components/About/WhyUs";
-import Testimonial from "../components/Testimonial/Testimonial"
+import DifferMe from "../components/About/Differme";
+import WhyMe from "../components/About/WhyMe";
 import Perform from "../components/Perform/Perform";
 const Home = () => {
   return (
@@ -18,10 +17,8 @@ const Home = () => {
    <Service/>
    <About/>
    <Skill/>
-   <DifferUs/>
-   <WhyUs/>
-   <Testimonial/>
-   {/* <Importance/> */}
+   <DifferMe/>
+   <WhyMe/>
    <Perform/>
    {/* <Project/> */}
    <Contact/>

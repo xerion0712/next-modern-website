@@ -2,7 +2,7 @@ import Image from "next/image";
 import { Zoom } from "react-awesome-reveal";
 
 
-const DifferUs = () => {
+const DifferMe = () => {
   return (
     <section className="about flex md:flex-row flex-col bg-blue bg-no-repeat items-center w-full justify-center text-primary py-[5rem] px-1">
       <div className=" flex flex-col max-w-screen-sm md:px-[4rem] py-[1rem] px-3 leading-6">
@@ -28,4 +28,4 @@ const DifferUs = () => {
   );
 };
 
-export default DifferUs;
+export default DifferMe;
