@@ -29,7 +29,6 @@ export default function Navbar() {
           </a>
           {/* Render the hamburger menu icon only on small screens */}
           <div className="md:hidden">
-            <OutsideClickHandler onOutsideClick={() => setOffCanvas(false)}>
               <Image
                 src="/img/nmenu.png"
                 width={30}
@@ -38,7 +37,6 @@ export default function Navbar() {
                 onClick={() => setOffCanvas(true)}
                 alt="openmenu"
               />
-            </OutsideClickHandler>
           </div>
           {/* Desktop menu */}
           <div className="hidden md:flex space-x-8 text-lg items-center">
@@ -62,7 +60,7 @@ export default function Navbar() {
       </nav>
       {/* Render the off-canvas menu when offCanvas is true */}
       {offCanvas && (
-        <div className="fixed inset-0 z-50 bg-primary h-full w-full">
+        <div className="fixed z-50 bg-primary h-full w-[60%] right-0">
           <div className="container mx-auto py-8 px-4">
             <div className="flex justify-end">
               <button
@@ -72,13 +70,15 @@ export default function Navbar() {
                 &#10005;
               </button>
             </div>
+            {/* Mobile View */}
+            <OutsideClickHandler onOutsideClick={() => setOffCanvas(false)}>
             <div className="flex flex-col pt-24 space-y-8 text-center">
-              <a href="#" data-target="home" onClick={(e) => handleLinkClick(e)} className="text-white hover:text-primary">
-                Home
-              </a>
-              <a href="#" data-target="about" onClick={(e) => handleLinkClick(e)} className="text-white hover:text-primary">
-                About
-              </a>
+            <a href="#" data-target="home" onClick={(e) => handleLinkClick(e)}  className="text-white hover:text-primary">
+              Home
+            </a>
+            <a href="#" data-target="about" onClick={(e) => handleLinkClick(e)} className="text-white hover:text-primary">
+              About
+            </a>
               <a href="#" data-target="service" onClick={(e) => handleLinkClick(e)} className="text-white hover:text-primary">
                 Service
               </a>
@@ -87,13 +87,14 @@ export default function Navbar() {
               </a>
             </div>
             <div className="flex justify-center mt-8">
-              <a href="https:www.instagram.com/frontendfirst" aria-label="Instagram" className="text-white mr-4 hover:text-primary">
+              <a href="https://www.instagram.com/frontendfirst" aria-label="Instagram" className="text-white mr-4 hover:text-primary">
                 <FiInstagram className="w-8 h-8" />
               </a>
               <a href="https:www.linkedin.com/in/maryam-tufail7" aria-label="Linkedin" className="text-white hover:text-primary">
                 <FiLinkedin className="w-8 h-8" />
               </a>
             </div>
+          </OutsideClickHandler>
           </div>
         </div>
       )}
