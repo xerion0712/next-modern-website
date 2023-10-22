@@ -16,6 +16,9 @@ const Hero = () => {
   return (
     <main className="home px-4 flex items-center w-full flex-col justify-center md:py-[16rem] py-[10rem] text-center bg-hero text-primary">
       <div className="max-w-6xl flex flex-col items-center">
+      <h1 className="py-2 text-2xl md:text-2xl font-bold">
+          MARYAM TUFAIL<span className="text-hover"> / FRONTEND DEVELOPER</span>
+        </h1>
         <h1 className="py-6 text-4xl md:text-6xl font-bold">
           LEVEL UP YOUR WEB<span className="text-hover"> PRESENCE</span>
         </h1>

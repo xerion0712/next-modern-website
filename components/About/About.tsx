@@ -31,7 +31,7 @@ const About = () => {
         <p className="mb-2 text-lg text-justify">
           I help entrepreneurs to level up online presence. My main objective is to focus on every small points that other just forget. Becasue, I know the value of online pressence because I am in same boot for growing globally.
         </p>
-        {/* <DownloadResumeButton /> */}
+        <DownloadResumeButton />
       </div>
     </section>
   );
