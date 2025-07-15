@@ -1,4 +1,4 @@
-# FrontendFirst (Portfolio)
+# modern website by next.js and tailwindcss
 
 ## Description
 
@@ -62,6 +62,6 @@ FrontendFirst would not have been possible without the incredible contributions 
 
 ## Contact
 
-For any inquiries or feedback, please reach out to [maryamtufail78@gmail.com](mailto:maryamtufail78@gmail.com).
+For any inquiries or feedback, please reach out to [dev.xerion@gmail.com](mailto:dev.xerion@gmail.com).
 
 Happy coding! Have a nice day!
